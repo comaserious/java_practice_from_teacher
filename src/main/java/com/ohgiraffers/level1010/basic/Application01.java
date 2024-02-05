@@ -66,6 +66,28 @@ public class Application01 {
 
         System.out.println("필요한 바구니의 수 : " + numOfBucket);
 
+        System.out.println("======================================================================================");
+
+        int num = 456;
+
+        System.out.println(num/100*100);
+
+        int num1 =333;
+
+        int res = (num1%10 == 1)? num1:num1-num1%10+1;
+        int res2 = num1/10*10+1;
+
+        System.out.println("res2 = " + res2);
+        System.out.println("res = " + res);
+
+
+
+
+
+
+
+
+
 
 
 
