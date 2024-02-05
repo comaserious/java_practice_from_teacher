@@ -51,8 +51,8 @@ public class Application01 {
         System.out.println(x+=2);
         System.out.println(!('A'<=c && c <='Z'));
         System.out.println('C'-c);
-        System.out.println('5'-'0');
-        System.out.println(c+1);
+        System.out.println('5'-'0');       //문자 5가 출력된것이다 숫자 5가 아니다
+        System.out.println(c+1);        //자동 형변환에 의해서 정수가 된다 (char +int->int) 그래서 숫자가 출력된다
         System.out.println(++c);
         System.out.println(c++);
         System.out.println(c);
